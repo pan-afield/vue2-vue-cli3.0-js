@@ -1,0 +1,19 @@
+/*
+    单行省略
+*/
+@mixin singleEllipsis {
+    overflow     : hidden;
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+}
+
+/**
+*蓝色长方形
+* @param width
+* @param hight
+*/
+@mixin rectangle($width, $height) {
+    width     : $width;
+    height    : $height;
+    background: skyblue;
+}
